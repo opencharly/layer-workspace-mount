@@ -1,7 +1,5 @@
-version: 2026.232.0520
 workspace-mount:
     candy:
-        version: 2026.149.1200
         description: |
             Mount a virtiofs `workspace` share at /workspace in a VM guest via a systemd .mount unit
             Writes and enables /etc/systemd/system/workspace.mount so a virtiofs
